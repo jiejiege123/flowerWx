@@ -1,0 +1,25 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="cnaps  borderBottom">
+    <view class='m-bbt'>
+      <text>{{city}}</text><i class="iconfont icon-index103"></i>
+    </view>
+    <image class="widget__arrow" src="http://localhost:8888/images/login.png" mode="aspectFill"></image>
+    <text class='phone'>服务热线:123456789</text>
+  </view>
+  <view class='swiper'>
+    <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="{{circular}}">
+      <block wx:for="{{imgUrls}}" wx:key="key">
+        <swiper-item>
+          <image src="{{item}}" class="slide-image"/>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+  <view class='nav'>
+    <navigator class="nav_view" wx:for="{{navArry}}" wx:key="{{idx}}" wx:for-index='idx' url='../list/list?id={{idx}}'>
+      <image src="http://localhost:8888/images/img/{{item.n_url}}" mode="widthFix" class="menu3icon" id='{{idx}}'></image>
+      <text>{{item.n_name}}</text>
+    </navigator>
+  </view>
+</view>

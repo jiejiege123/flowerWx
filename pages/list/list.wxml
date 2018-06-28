@@ -1,0 +1,8 @@
+<!--pages/list/list.wxml-->
+<view class='nav'>
+  <view class='navsearch'>
+    <input placeholder='搜索商品' class='search'>
+    </input>
+    <i class="iconfont icon-fangdajing"></i>
+  </view>
+</view>

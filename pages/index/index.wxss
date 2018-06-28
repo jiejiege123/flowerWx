@@ -1,0 +1,58 @@
+/**index.wxss**/
+ @import '../../lib/style/font.wxss'; 
+.m-bbt{
+  font-size: 24rpx;
+  color: #c0c000;
+  padding: 0 8px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  /* width: 50px; */
+}
+.m-bbt i{
+  font-size: 18rpx;
+  margin-left: 5px;
+}
+.cnaps{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between
+}
+.widget__arrow{
+  width: 40px;
+  height: 20px;
+}
+.phone{
+  font-size: 28rpx;
+  margin-right: 8px;
+}
+.swiper {
+  margin-top: 8rpx;
+  height: 400rpx;
+  width: 100%;
+}
+.swiper image,.swiper swiper {
+  height: 100%;
+  width: 100%;
+}
+.nav{
+  display: flex;
+  flex-wrap: wrap;
+}
+.nav_view{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  height: 220rpx;
+  padding-top: 10rpx;
+}
+.nav_view image{
+  width: 90%;
+}
+.nav_view text{
+  font-size: 24rpx;
+  margin-top: 5rpx;
+}

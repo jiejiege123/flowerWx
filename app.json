@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/classify/classify",
+    "pages/Shopcar/Shopcar",
+    "pages/main/main",
+    "pages/list/list"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "花庭阁",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#8a8a8a",
+    "selectedColor": "#0e932e",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "主页",
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/home-b.png"
+      },
+      {
+        "pagePath": "pages/classify/classify",
+        "text": "分类",
+        "iconPath": "images/fenlei.png",
+        "selectedIconPath": "images/fenlei-b.png"
+      },
+      {
+        "pagePath": "pages/Shopcar/Shopcar",
+        "text": "购物车",
+        "iconPath": "images/shop.png",
+        "selectedIconPath": "images/shop-b.png"
+      },
+      {
+        "pagePath": "pages/main/main",
+        "text": "我的",
+        "iconPath": "images/wode.png",
+        "selectedIconPath": "images/wode-b.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+/* pages/list/list.wxss */
+@import '../../lib/style/font.wxss'; 
+.nav{
+  background-color: #2B8460;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80rpx;
+}
+.nav .search{
+  width: 90%;
+  font-size: 24rpx;
+  background-color: white;
+  border-radius: 10rpx;
+  padding-left: 40rpx;
+  padding-right: -40rpx;
+}
+.navsearch{
+  position: relative;
+  width: 70%;
+}
+.navsearch i{
+  position: absolute;
+  top: 14rpx;
+  left: 10rpx;
+  font-size: 28rpx;
+  color: #A190B5;
+}
